@@ -117,13 +117,13 @@ on top of the “Explore Menu” button. This allowed the clickjacking attack to
 
 when the button was clicked the user would see the text “You Have Been Hacked!!”.
 
-
+</br>
 
 Question 2: How does the appearance of the attacker’s site compare to that of the
 
 defender’s site?
 
-
+</br>
 
 Answer: After altering the position and css attributes of the malicious buttons, the attacker’s
 
@@ -133,13 +133,13 @@ completely alike visually. The malicious button is directly on top of the “Exp
 
 but it is transparent.
 
-
+</br>
 
 Question 3: What happens when you click on the “Explore Menu” button on the attacker’s
 
 site?
 
-
+</br>
 
 Answer: When a user clicks the “Explore Menu” button on the attacker’s website, the text “You
 
@@ -147,13 +147,13 @@ Have Been Hacked!!” is displayed on the page. This is because the transparent 
 
 was clicked instead of the “Explore Menu” button. The image above shows this screen.
 
-
+</br>
 
 Question 4: Describe an attack scenario in which the style of clickjacking implemented for
 
 this Task leads to undesirable consequences for a victim user.
 
-
+</br>
 
 Answer: This style of attack can impact a user in numerous ways. This can be used to forge a
 
