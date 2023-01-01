@@ -175,8 +175,8 @@ this style of attacks.
 
 The image above shows the code that was added to the index.html file
 
-
-Answer: In this task, the objective was to add JavaScript code to index.html in the defender file.
+# Explanation for Task 3
+In this task, the objective was to add JavaScript code to index.html in the defender file.
 
 I filled in the makeThisFrameOnTop() function which compared the window.top to window.self
 
@@ -224,11 +224,16 @@ overlaid on top of the defender website.
 
 ## Task 4
 
+<img src= "https://user-images.githubusercontent.com/77298953/210186907-991f048b-61a0-4108-8351-c1b193555bc6.PNG" width=70% height=70%>
 The image above shows the code that was added to the attacker.html file
+
+<img src= "https://user-images.githubusercontent.com/77298953/210186918-8bd182a9-e1c3-48a7-9f67-2be45e342298.PNG" width=70% height=70%>
 
 The image above shows the result when the button was clicked on the attacker’s website
 
-Answer: In this task, the objective was to implement code in the attack.html file that would work
+
+# Explanation for Task 4
+In this task, the objective was to implement code in the attack.html file that would work
 
 around the previous code implemented in the previous task on the defender’s website. In the task
 
@@ -240,9 +245,13 @@ being from a unique origin and allow scripts to be run. Allowing scripts to run 
 
 malicious button to work properly once again.
 
+</br>
+
 Question 7: What does the sandbox attribute do? Why does this prevent the frame buster
 
 from working?
+
+</br>
 
 Answer: The sandbox attribute applies or lifts restrictions to the content in the iframe. Sandbox
 
@@ -254,9 +263,13 @@ scripts to execute. Allowing scripts to be executed, the malicious attack can no
 
 again.
 
+</br>
+
 Question 8: What happens when you navigate to the attacker’s site after updating the
 
 iframe to use the sandbox attribute?
+
+</br>
 
 Answer: After implementing the sandbox code, the attacker’s site now works as intended. The
 
@@ -264,11 +277,15 @@ attacker’s website is shown instead of the defender’s website. This is due t
 
 which allows the contents of the iframe to be displayed as intended.
 
+</br>
+
 Question 9: What happens when you click the button on the attacker’s site?
 
 Answer: When the malicious button is clicked, the text “You Have Been Hacked!!” is displayed,
 
 showing that the sandbox attribute worked around the frame buster code.
+
+</br>
 
 ## Task 5
 
