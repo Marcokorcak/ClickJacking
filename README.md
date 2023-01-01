@@ -225,6 +225,7 @@ overlaid on top of the defender website.
 ## Task 4
 
 <img src= "https://user-images.githubusercontent.com/77298953/210186907-991f048b-61a0-4108-8351-c1b193555bc6.PNG" width=70% height=70%>
+
 The image above shows the code that was added to the attacker.html file
 
 <img src= "https://user-images.githubusercontent.com/77298953/210186918-8bd182a9-e1c3-48a7-9f67-2be45e342298.PNG" width=70% height=70%>
