@@ -61,7 +61,8 @@ done in the iframe section in the attacker.css file which made the iframe cover 
 
 I needed to clear my browsers cache and reload the website to see the changes.
 
-Question 1: With the iframe inserted, what does the attacker’s website look like?
+
+Question : With the iframe inserted, what does the attacker’s website look like?
 
 Answer: With the iframe inserted, the attacker’s website looked like the alice’s cupcakes
 
@@ -73,21 +74,27 @@ the page originally was not altered. The website can be seen in the image above.
 
 ## Task 2
 
-The image above shows that the malicious button was shifted to the position of the original
+<img src= "https://user-images.githubusercontent.com/77298953/210186642-1118d759-4b81-48f7-bad4-7f3bb41d8776.PNG" width=70% height=70%>
 
+The image above shows that the malicious button was shifted to the position of the original
 button
 
-The image above shows the code that was added to the attacker.css file to shift the button
+<img src= "https://user-images.githubusercontent.com/77298953/210186655-c9a81c16-5315-453e-94e1-1a4b2b5402b0.PNG" width=70% height=70%>
 
+The image above shows the code that was added to the attacker.css file to shift the button
 position and transparency
 
-The image above shows the button after making all the changes to its position and making it
+<img src= "https://user-images.githubusercontent.com/77298953/210186660-2b145ce7-2f57-4307-a41e-0b52a74b756d.PNG" width=70% height=70%>
 
+The image above shows the button after making all the changes to its position and making it
 transparent
+
+<img src= "https://user-images.githubusercontent.com/77298953/210186671-a3b68180-d4c1-4133-9f53-d1a194c020bd.PNG" width=70% height=70%>
 
 The image above shows what is displayed when the malicious button was clicked
 
-Answer: In this task, the objective was to alter the button and its position using the css file.
+# Explanation for Task 2
+In this task, the objective was to alter the button and its position using the css file.
 
 Before making any changes to the attacker.css file the malicious button was at the top left of the
 
@@ -107,6 +114,7 @@ on top of the “Explore Menu” button. This allowed the clickjacking attack to
 
 when the button was clicked the user would see the text “You Have Been Hacked!!”.
 
+
 Question 2: How does the appearance of the attacker’s site compare to that of the
 
 defender’s site?
@@ -119,6 +127,7 @@ completely alike visually. The malicious button is directly on top of the “Exp
 
 but it is transparent.
 
+
 Question 3: What happens when you click on the “Explore Menu” button on the attacker’s
 
 site?
@@ -128,6 +137,7 @@ Answer: When a user clicks the “Explore Menu” button on the attacker’s web
 Have Been Hacked!!” is displayed on the page. This is because the transparent malicious button
 
 was clicked instead of the “Explore Menu” button. The image above shows this screen.
+
 
 Question 4: Describe an attack scenario in which the style of clickjacking implemented for
 
@@ -146,6 +156,7 @@ the button is clicked which can allow an attacker to gain access to a user’s m
 script and carry out malicious activities. There is a wide range of things that can be done through
 
 this style of attacks.
+
 
 ## Task 3
 
