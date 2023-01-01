@@ -64,8 +64,8 @@ I needed to clear my browsers cache and reload the website to see the changes.
 </br>
 
 Question : With the iframe inserted, what does the attacker’s website look like?
-</br>
 
+</br>
 
 Answer: With the iframe inserted, the attacker’s website looked like the alice’s cupcakes
 
