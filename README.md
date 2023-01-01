@@ -30,7 +30,6 @@ container. With all of this setup, all of the websites were running properly and
 
 ## Task 1
 <img src= "https://user-images.githubusercontent.com/77298953/210186455-57af4460-7c74-4718-a27c-9a8a22288f68.PNG" width=70% height=70%>
-
 The image above shows the code that was added to the attacker.html file for the iframe
 
 <img src= "https://user-images.githubusercontent.com/77298953/210186468-014cdc95-5e7f-4e7e-8e73-14b4a0744327.PNG" width=70% height=70%>
@@ -40,7 +39,7 @@ iframe to cover the whole page
 <img src= "https://user-images.githubusercontent.com/77298953/210186483-013717a4-9f4a-4f24-9990-e773e9caaceb.PNG" width=70% height=70%>
 The image above shows the iframe that was added to the www.cjlab-attacker.com website
 
-Answer: In task 1, I was tasked with adding an iframe HTML element to the www.cjlab-
+Explanation:  In task 1, I was tasked with adding an iframe HTML element to the www.cjlab-
 
 attacker.com website. Along with adding the iframe, I also needed to modify the css file using the
 
