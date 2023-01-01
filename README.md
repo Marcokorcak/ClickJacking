@@ -205,11 +205,13 @@ code and function prevented the attacker’s website from being displayed within
 was done as a countermeasure to prevent websites from opening the webpage within an iframe as
 
 well as preventing buttons on the attacker’s webpage from being overlaid on top of it.
+
 </br>
 
 Question 6: What happens when you click the button?
 
 </br>
+
 Answer: When the button is clicked, the website refreshes and redirects the user to the
 
 defender’s website. This can be seen by the url that is displayed after clicking the button which is
