@@ -171,8 +171,10 @@ this style of attacks.
 
 
 ## Task 3
+<img src= "https://user-images.githubusercontent.com/77298953/210186755-cf1ae7f8-57ae-4cb7-b61a-be5529f39287.PNG" width=70% height=70%>
 
 The image above shows the code that was added to the index.html file
+
 
 Answer: In this task, the objective was to add JavaScript code to index.html in the defender file.
 
@@ -188,7 +190,11 @@ the page in order for the changes to take effect. This is a frame-busting script
 
 malicious webpages from being displayed using a iframe.
 
+</br>
+
 Question 5: What happens when you navigate to the attacker’s site now?
+
+</br>
 
 Answer: After implementing this code, when I visited the attacker’s website, I am redirected to
 
@@ -199,9 +205,11 @@ code and function prevented the attacker’s website from being displayed within
 was done as a countermeasure to prevent websites from opening the webpage within an iframe as
 
 well as preventing buttons on the attacker’s webpage from being overlaid on top of it.
+</br>
 
 Question 6: What happens when you click the button?
 
+</br>
 Answer: When the button is clicked, the website refreshes and redirects the user to the
 
 defender’s website. This can be seen by the url that is displayed after clicking the button which is
