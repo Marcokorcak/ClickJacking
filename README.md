@@ -64,6 +64,7 @@ I needed to clear my browsers cache and reload the website to see the changes.
 
 Question : With the iframe inserted, what does the attacker’s website look like?
 
+
 Answer: With the iframe inserted, the attacker’s website looked like the alice’s cupcakes
 
 website except that the malicious button was at the top left of the page. This is because the
@@ -119,6 +120,7 @@ Question 2: How does the appearance of the attacker’s site compare to that of 
 
 defender’s site?
 
+
 Answer: After altering the position and css attributes of the malicious buttons, the attacker’s
 
 website is an exact copy of the defender’s website. When looking at both websites they are
@@ -132,6 +134,7 @@ Question 3: What happens when you click on the “Explore Menu” button on the 
 
 site?
 
+
 Answer: When a user clicks the “Explore Menu” button on the attacker’s website, the text “You
 
 Have Been Hacked!!” is displayed on the page. This is because the transparent malicious button
@@ -142,6 +145,7 @@ was clicked instead of the “Explore Menu” button. The image above shows this
 Question 4: Describe an attack scenario in which the style of clickjacking implemented for
 
 this Task leads to undesirable consequences for a victim user.
+
 
 Answer: This style of attack can impact a user in numerous ways. This can be used to forge a
 
