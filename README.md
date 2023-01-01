@@ -37,7 +37,7 @@ The image above shows the code that was added to the attacker.html file for the 
 The image above shows the code that was added to the attacker.css file in order to position the
 iframe to cover the whole page
 
-<img src= "(https://user-images.githubusercontent.com/77298953/210186483-013717a4-9f4a-4f24-9990-e773e9caaceb.PNG" width=70% height=70%>
+<img src= "https://user-images.githubusercontent.com/77298953/210186483-013717a4-9f4a-4f24-9990-e773e9caaceb.PNG" width=70% height=70%>
 The image above shows the iframe that was added to the www.cjlab-attacker.com website
 
 Answer: In task 1, I was tasked with adding an iframe HTML element to the www.cjlab-
