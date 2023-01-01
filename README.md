@@ -9,7 +9,7 @@
 * [Task 5](#task5)
 
 
-Lab Setup
+## Lab Setup
 
 The image above shows the lab environment setup by adding the DNS configurations and the websites
 
@@ -19,7 +19,7 @@ this the commands “docker-compose build” and “docker-compose up” were us
 
 container. With all of this setup, all of the websites were running properly and could be visited.
 
-Task 1
+## Task 1
 
 The image above shows the code that was added to the attacker.html file for the iframe
 
@@ -57,7 +57,7 @@ iframe along with the css attributes covered the whole page but the malicious bu
 
 the page originally was not altered. The website can be seen in the image above.
 
-Task 2
+## Task 2
 
 The image above shows that the malicious button was shifted to the position of the original
 
@@ -133,7 +133,7 @@ script and carry out malicious activities. There is a wide range of things that 
 
 this style of attacks.
 
-Task 3
+## Task 3
 
 The image above shows the code that was added to the index.html file
 
@@ -175,7 +175,7 @@ implemented in this task. The code prevented buttons on the attacker’s webpage
 
 overlaid on top of the defender website.
 
-Task 4
+## Task 4
 
 The image above shows the code that was added to the attacker.html file
 
@@ -223,7 +223,7 @@ Answer: When the malicious button is clicked, the text “You Have Been Hacked!!
 
 showing that the sandbox attribute worked around the frame buster code.
 
-Task 5
+## Task 5
 
 The image above shows the code that was added to the apache_defender.conf file
 
