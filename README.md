@@ -1,5 +1,13 @@
 # ClickJacking Lab
 
+Clickjacking, also known as a “UI redress attack,” is an attack that tricks a user into clicking on something
+they do not intend to when visiting a webpage, thus “hijacking” the click. In this lab, I explored a
+common attack vector for clickjacking: the attacker creates a webpage that loads the content of a legitimate
+page but overlays one or more of its buttons with invisible button(s) that trigger malicious actions. When a
+user attempts to click on the legitimate page’s buttons, the browser registers a click on the invisible button
+instead, triggering the malicious action.
+
+
 ## Table of contents
 * [Lab Setup](#Lab-Setup)
 * [Task 1](#Task-1)
