@@ -16,6 +16,7 @@ instead, triggering the malicious action.
 * [Task 4](#Task-4)
 * [Task 5](#Task-5)
 
+![LabSetup](https://user-images.githubusercontent.com/77298953/210186397-03d62656-e661-4a8e-b8fb-f1754ecac9da.PNG)
 
 ## Lab Setup
 
