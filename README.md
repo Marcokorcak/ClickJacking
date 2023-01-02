@@ -290,11 +290,17 @@ showing that the sandbox attribute worked around the frame buster code.
 
 ## Task 5
 
+<img src= "https://user-images.githubusercontent.com/77298953/210189136-a38100ee-f46a-495f-9555-75b3305f168a.PNG" width=70% height=70%>
+
 The image above shows the code that was added to the apache_defender.conf file
+
+<img src= "https://user-images.githubusercontent.com/77298953/210189152-46fac5a2-d64e-4a3f-b854-0c0a2bc91c5c.PNG" width=70% height=70%>
 
 The image above shows the error code that is thrown when the attacker’s website is visited
 
-Answer: The objective of this task was to modify the defender’s response headers in the Apache
+# Explanation for Task 5
+
+The objective of this task was to modify the defender’s response headers in the Apache
 
 configuration file. In order to edit this file, I first needed to get to the image_defender directory
 
@@ -310,9 +316,13 @@ defender website in the iframe. This result was gotten once I restarted as well 
 
 docker containers to update all information. The screen printed “Firefox Can’t Open This Page”.
 
+</br>
+
 Questions 10: What is the X-Frame-Options HTTP header attribute, and why is it set to
 
 “DENY” to prevent the attack?
+
+</br>
 
 Answer: The X-Frame-Attribute option on the HTTP header attribute is used to allow content
 
@@ -324,9 +334,14 @@ that the defender’s website cannot be displayed in a frame regardless of what 
 
 attempting to do.
 
+</br>
+
 Question 11: What is the Content-Security-Policy header attribute, and why is it set to
 
 “frame-ancestors ‘none’ ” to prevent the attack?
+
+</br>
+
 
 Answer: The Content-Security-Policy header of frame ancestor’s attribute specifies valid parents
 
@@ -338,9 +353,15 @@ an iframe tag. This is similar to setting X-Frame-Options to deny since it preve
 
 the defender’s website.
 
+</br>
+
+
 Question 12: What happens when you navigate to the attacker’s site after modifying each
 
 response header (one at a time)? What do you see when you click the button?
+
+</br>
+
 
 Answer: When I visit the attacker’s website with both response headers implemented the
 
