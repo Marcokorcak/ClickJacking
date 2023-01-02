@@ -6,7 +6,6 @@ common attack vector for clickjacking: the attacker creates a webpage that loads
 page but overlays one or more of its buttons with invisible button(s) that trigger malicious actions. When a
 user attempts to click on the legitimate page’s buttons, the browser registers a click on the invisible button
 instead, triggering the malicious action.
-
 </br>
 
 Topic coverage. This lab covers the following topics:
