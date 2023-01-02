@@ -16,10 +16,10 @@ Topic coverage. This lab covers the following topics:
 
 ## Table of contents
 * [Lab Setup](#Lab-Setup)
-* [Task 1](#Task-1)
-* [Task 2](#Task-2)
-* [Task 3](#Task-3)
-* [Task 4](#Task-4)
+* [Task 1 Copying the Site](#Task-1-Copying-the-Site)
+* [Task 2 ClickJacking](#Task-2-ClickJacking)
+* [Task 3 Frame Busting](#Task-3-Frame-Busting)
+* [Task 4 Attacker Countermeasure](#Task-4-Attacker-Countermeasure)
 * [Task 5](#Task-5)
 
 
@@ -35,7 +35,7 @@ this the commands “docker-compose build” and “docker-compose up” were us
 
 container. With all of this setup, all of the websites were running properly and could be visited.
 
-# Task 1
+# Task 1 Copying the Site
 <img src= "https://user-images.githubusercontent.com/77298953/210186455-57af4460-7c74-4718-a27c-9a8a22288f68.PNG" width=70% height=70%>
 
 The image above shows the code that was added to the attacker.html file for the iframe
@@ -82,7 +82,7 @@ iframe along with the css attributes covered the whole page but the malicious bu
 
 the page originally was not altered. The website can be seen in the image above.
 
-# Task 2
+# Task 2 ClickJacking
 
 <img src= "https://user-images.githubusercontent.com/77298953/210186642-1118d759-4b81-48f7-bad4-7f3bb41d8776.PNG" width=70% height=70%>
 
@@ -177,7 +177,7 @@ script and carry out malicious activities. There is a wide range of things that 
 this style of attacks.
 
 
-# Task 3
+# Task 3 Frame Busting
 <img src= "https://user-images.githubusercontent.com/77298953/210186755-cf1ae7f8-57ae-4cb7-b61a-be5529f39287.PNG" width=70% height=70%>
 
 The image above shows the code that was added to the index.html file
@@ -229,7 +229,7 @@ implemented in this task. The code prevented buttons on the attacker’s webpage
 
 overlaid on top of the defender website.
 
-# Task 4
+# Task 4 Attacker Countermeasure
 
 <img src= "https://user-images.githubusercontent.com/77298953/210186907-991f048b-61a0-4108-8351-c1b193555bc6.PNG" width=70% height=70%>
 
