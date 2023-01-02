@@ -28,7 +28,7 @@ this the commands “docker-compose build” and “docker-compose up” were us
 
 container. With all of this setup, all of the websites were running properly and could be visited.
 
-## Task 1
+# Task 1
 <img src= "https://user-images.githubusercontent.com/77298953/210186455-57af4460-7c74-4718-a27c-9a8a22288f68.PNG" width=70% height=70%>
 
 The image above shows the code that was added to the attacker.html file for the iframe
@@ -42,7 +42,7 @@ iframe to cover the whole page
 
 The image above shows the iframe that was added to the www.cjlab-attacker.com website
 
-# Explanation for Task 1
+## Explanation for Task 1
 In task 1, I was tasked with adding an iframe HTML element to the www.cjlab-
 
 attacker.com website. Along with adding the iframe, I also needed to modify the css file using the
@@ -75,7 +75,7 @@ iframe along with the css attributes covered the whole page but the malicious bu
 
 the page originally was not altered. The website can be seen in the image above.
 
-## Task 2
+# Task 2
 
 <img src= "https://user-images.githubusercontent.com/77298953/210186642-1118d759-4b81-48f7-bad4-7f3bb41d8776.PNG" width=70% height=70%>
 
@@ -96,7 +96,7 @@ transparent
 
 The image above shows what is displayed when the malicious button was clicked
 
-# Explanation for Task 2
+## Explanation for Task 2
 In this task, the objective was to alter the button and its position using the css file.
 
 Before making any changes to the attacker.css file the malicious button was at the top left of the
@@ -170,12 +170,12 @@ script and carry out malicious activities. There is a wide range of things that 
 this style of attacks.
 
 
-## Task 3
+# Task 3
 <img src= "https://user-images.githubusercontent.com/77298953/210186755-cf1ae7f8-57ae-4cb7-b61a-be5529f39287.PNG" width=70% height=70%>
 
 The image above shows the code that was added to the index.html file
 
-# Explanation for Task 3
+## Explanation for Task 3
 In this task, the objective was to add JavaScript code to index.html in the defender file.
 
 I filled in the makeThisFrameOnTop() function which compared the window.top to window.self
@@ -222,7 +222,7 @@ implemented in this task. The code prevented buttons on the attacker’s webpage
 
 overlaid on top of the defender website.
 
-## Task 4
+# Task 4
 
 <img src= "https://user-images.githubusercontent.com/77298953/210186907-991f048b-61a0-4108-8351-c1b193555bc6.PNG" width=70% height=70%>
 
@@ -233,7 +233,7 @@ The image above shows the code that was added to the attacker.html file
 The image above shows the result when the button was clicked on the attacker’s website
 
 
-# Explanation for Task 4
+## Explanation for Task 4
 In this task, the objective was to implement code in the attack.html file that would work
 
 around the previous code implemented in the previous task on the defender’s website. In the task
@@ -288,7 +288,7 @@ showing that the sandbox attribute worked around the frame buster code.
 
 </br>
 
-## Task 5
+# Task 5
 
 <img src= "https://user-images.githubusercontent.com/77298953/210189136-a38100ee-f46a-495f-9555-75b3305f168a.PNG" width=70% height=70%>
 
@@ -298,7 +298,7 @@ The image above shows the code that was added to the apache_defender.conf file
 
 The image above shows the error code that is thrown when the attacker’s website is visited
 
-# Explanation for Task 5
+## Explanation for Task 5
 
 The objective of this task was to modify the defender’s response headers in the Apache
 
