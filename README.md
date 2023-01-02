@@ -7,6 +7,13 @@ page but overlays one or more of its buttons with invisible button(s) that trigg
 user attempts to click on the legitimate page’s buttons, the browser registers a click on the invisible button
 instead, triggering the malicious action.
 
+</br>
+
+Topic coverage. This lab covers the following topics:
+* Clickjacking attack
+* Countermeasures: frame busting and HTTP headers
+* Iframes and sandboxes
+* JavaScript
 
 ## Table of contents
 * [Lab Setup](#Lab-Setup)
